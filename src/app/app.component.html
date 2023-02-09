@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    <h1>Flowers<img [src]="myImage" width="100px" height="100px"></h1><br/>
+      <nav>
+        <a routerLink="/home">Home</a>
+        <a routerLink="/about">About</a>
+        <a routerLink="/menu">Menu</a>
+        <a routerLink="/booking">Booking</a>
+        <a routerLink="/franchies">login</a>
+      </nav>
+      <router-outlet></router-outlet>
+      <br>
+      <img src="../assets/bhagya/f1.jpg" height="100%" width="100%">
+  </body>
